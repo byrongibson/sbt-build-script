@@ -5,7 +5,7 @@ Port of [Html5Boilerplate (H5BP) Ant build script][1] to [SBT][0].  This will be
 
 ###Setup
 
-This script works a little differently from the [parent Ant build script][1].  Instead of copying/cloning the build script into the H5BP root directory, you will first clone this build script, then copy or clone H5BP into this build script's source directory, more specifically into ./src/main/web/h5bp/src.
+This script works a little differently than the [parent Ant build script][1].  Instead of copying/cloning the build script into the H5BP root directory, you will first clone this SBT project, then copy or clone H5BP into this build script's source directory, more specifically into ./src/main/web/h5bp/src.
 
 Running the build script will then copy the compiled/minified H5BP from ./src/main/web/h5bp/src into ./src/main/web/h5bp/publish (or wherever you specify for the publish directory in the SBT settings file ./project/build.properties).
 
