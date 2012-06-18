@@ -1,6 +1,6 @@
-[submodule "submodules/ant-build-script"]
-	path = submodules/ant-build-script
-	url = git://github.com/h5bp/ant-build-script.git
-[submodule "submodules/html5-boilerplate"]
-	path = submodules/html5-boilerplate
+[submodule "lib/submodules/html5-boilerplate"]
+	path = lib/submodules/html5-boilerplate
 	url = git://github.com/h5bp/html5-boilerplate.git
+[submodule "lib/submodules/ant-build-script"]
+	path = lib/submodules/ant-build-script
+	url = git://github.com/h5bp/ant-build-script.git

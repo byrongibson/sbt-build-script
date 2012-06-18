@@ -1,1 +1,1 @@
-scripts/git-submodule-add.sh
+lib/scripts/git-submodule-add.sh

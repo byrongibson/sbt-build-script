@@ -1,1 +1,1 @@
-scripts/git-submodule-rm.sh
+lib/scripts/git-submodule-rm.sh

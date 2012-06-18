@@ -1,1 +1,1 @@
-scripts/update-tools.sh
+lib/scripts/update-tools.sh

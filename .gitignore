@@ -8,24 +8,9 @@
 # # ignore all lift template directories.  they are their own repo's.  this repo only for scripts for making giter8 templates, README, etc.
 # # LiftStack Specific #
 # ######################
-submodules.backup
 test
-lift*
-fucked*
 target*
 target/*
-!lifty*
-!lift_24_sbt
-!lift_24_sbt/*
-!lift-helpers
-!lift-helpers/*
-!submodules/
-!submodules/lift_24_sbt
-!submodules/lift_24_sbt/*
-!submodules/lift_24_sbt_d6y
-!submodules/lift_24_sbt_d6y/*
-!submodules/lift-quickstart
-!submodules/lift-quickstart/*
 
 # new and old versions of conffiles, stored by dpkg
 *.dpkg-*
@@ -79,7 +64,7 @@ DEADJOE
 *.dmg
 *.gz
 *.iso
-*.jar
+!*.jar
 *.rar
 *.tar
 *.zip
@@ -98,14 +83,6 @@ Icon?
 Thumbs.db
 .DS_Store
 
-# # Haskell #
-# ###########
-cabal-dev
-dist
-.static-cache
-static/tmp
-.sqlite3
-
 # # Private #
 # ###########
 .ssh
@@ -113,16 +90,12 @@ ssh
 id_rsa
 id_dsa
 identity
-.gitconfig
-.gitconfig*
 
 # # Misc #
 # ########
-build
 *.pbxuser
 *.mode2v3
 *.mode1v3
 *.perspective
 *.perspectivev3
-.oh-my-zsh
 
