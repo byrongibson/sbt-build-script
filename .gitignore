@@ -6,7 +6,6 @@
 # # ignore all lift template directories.  they are their own repo's.  this repo only for scripts for making giter8 templates, README, etc.
 # # LiftStack Specific #
 # ######################
-test
 target*
 target/*
 
