@@ -27,7 +27,7 @@ One challenge with this port is converting the Ant project structure to a more [
 
 /src/main/web/h5bp/publish: The destination for H5BP compiled sources, the output of this build script.
 
-/lib:                       [Unmanaged dependencies][5].  Unmanaged dependencies are where you just drop the dependency jar file in /lib and you're done.  By contrast, managed dependencies are specified in build.sbt and project/\*.sbt/properties/scala config files and are downloaded and managed automatically by SBT.  In this case, /lib/\* is manually copied over from submodules/ant-build-script/tools/\* by the update-tools.sh script, to keep them version-synced with the parent Ant build script.
+/lib:                       [Unmanaged dependencies][5].  Unmanaged dependencies are where you just drop the dependency jar file in /lib and you're done.  By contrast, managed dependencies are specified in build.sbt and project/\*.sbt/properties/scala config files and are downloaded and managed automatically by SBT.
 
 /lib/scripts:               Helper scripts
 
