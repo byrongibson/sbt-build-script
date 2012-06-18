@@ -31,9 +31,7 @@ One challenge with this port is converting the Ant project structure to a more [
 
 /lib/scripts:               Helper scripts
 
-/lib/submodules:            Primarily for the parent projects - h5bp/ant-build-script and h5bp/html5-boilerplate.   Used to keep the various compilers, preprocessors, and minifiers, and source code of sbt-build-script synced with the parent projects.
-
-/lib/tools:                 Preprocessors, compilers, minifiers, copied over from ant-build-script/tools.
+/lib/submodules:            Primarily for the parent projects - [h5bp/ant-build-script][1] and [h5bp/html5-boilerplate][2].   Used to keep the various compilers, preprocessors, and minifiers, and source code of sbt-build-script synced with the parent projects.
 
 /target:                    Compiled Scala and Java sources.  Automatically created and managed by SBT when it builds your project, no need to manually create or manage.
 
