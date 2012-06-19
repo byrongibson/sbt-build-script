@@ -62,7 +62,7 @@ if [ $? -ne 0 ]; then
 
 else 
 
-    echo "Executing 'git rm $1' ..."
+    echo "Executing 'git rm -rf $1' ..."
     git rm -rf $1
 
     echo "Executing 'rm -rf $1' ..."
