@@ -1,15 +1,11 @@
-# # ignore extension-less files (compiled filter)
+# # ignore sbt target dirs 
+# (./target, ./project/target, etc)
+# https://github.com/harrah/xsbt/wiki/Getting-Started-Directories
 # #############################
-#*
-#!*.*
-
-# # ignore all lift template directories.  they are their own repo's.  this repo only for scripts for making giter8 templates, README, etc.
-# # LiftStack Specific #
-# ######################
-target*
-target/*
+target/
 
 # editor temp files
+# #############################
 *~
 .*.sw?
 .sw?
@@ -17,7 +13,7 @@ target/*
 DEADJOE
 
 # # OS generated files #
-# ######################
+# #############################
 .DS_Store?
 ehthumbs.db
 Icon?
@@ -25,7 +21,7 @@ Thumbs.db
 .DS_Store
 
 # # Private #
-# ###########
+# #############################
 .ssh
 ssh
 id_rsa
