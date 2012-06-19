@@ -1,1 +1,3 @@
-Just a placeholder so git will add this dir tree to the repo.
+Load default.properties first.
+
+Load project.properties second, to overwrite default properties on a per-project basis.

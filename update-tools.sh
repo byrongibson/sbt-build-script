@@ -1,1 +1,0 @@
-lib/scripts/update-tools.sh
